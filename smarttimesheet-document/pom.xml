@@ -19,7 +19,7 @@
 		</dependency>
 		<dependency>
 			<groupId>com.github.piergiuseppe82.smarttimesheet</groupId>
-			<artifactId>smarttimesheet-data</artifactId>
+			<artifactId>smarttimesheet-api</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>

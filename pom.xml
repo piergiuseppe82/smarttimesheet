@@ -18,5 +18,6 @@
 		<module>smarttimesheet-data</module>
 		<module>smarttimesheet-web</module>
 		<module>smarttimesheet-document</module>
+		<module>smarttimesheet-api</module>
 	</modules>
 </project>
