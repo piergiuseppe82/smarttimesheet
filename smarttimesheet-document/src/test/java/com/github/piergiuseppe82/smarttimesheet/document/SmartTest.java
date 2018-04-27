@@ -46,7 +46,7 @@ public class SmartTest {
 
 		Process process = null;
 		try {
-			process = Runtime.getRuntime().exec("libreoffice --headless --convert-to pdf:calc_pdf_Export --outdir  target "+(new File("target/test.xls")).getAbsolutePath());
+			process = Runtime.getRuntime().exec("libreoffice --headless --convert-to pdf:calc_pdf_Export --outdir  target "+(new File(this.getClass().getResource("/TemplateWideside.xls").getFile()).getAbsolutePath()));
 			BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()));
 			String line = "";
 			while ((line = reader.readLine()) != null) {
