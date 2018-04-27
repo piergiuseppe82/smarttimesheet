@@ -1,6 +1,9 @@
-package com.github.piergiuseppe82.smarttimesheet.document.model;
+package com.github.piergiuseppe82.smarttimesheet.document.generators;
 
 import java.io.File;
+
+import com.github.piergiuseppe82.smarttimesheet.document.model.Document;
+import com.github.piergiuseppe82.smarttimesheet.document.model.DocumentData;
 
 public interface DocumentGenerator {
 

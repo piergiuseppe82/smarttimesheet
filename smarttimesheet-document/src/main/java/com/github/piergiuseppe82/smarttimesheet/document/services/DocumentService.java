@@ -5,9 +5,9 @@ import java.io.File;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import com.github.piergiuseppe82.smarttimesheet.document.generators.DocumentGenerator;
 import com.github.piergiuseppe82.smarttimesheet.document.model.Document;
 import com.github.piergiuseppe82.smarttimesheet.document.model.DocumentData;
-import com.github.piergiuseppe82.smarttimesheet.document.model.DocumentGenerator;
 import com.github.piergiuseppe82.smarttimesheet.document.providers.ContextProvider;
 
 @Service

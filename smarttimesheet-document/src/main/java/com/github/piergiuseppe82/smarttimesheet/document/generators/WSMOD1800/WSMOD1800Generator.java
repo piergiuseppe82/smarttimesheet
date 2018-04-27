@@ -15,9 +15,9 @@ import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.springframework.stereotype.Component;
 
 import com.github.piergiuseppe82.smarttimesheet.data.model.Day;
+import com.github.piergiuseppe82.smarttimesheet.document.generators.DocumentGenerator;
 import com.github.piergiuseppe82.smarttimesheet.document.model.Document;
 import com.github.piergiuseppe82.smarttimesheet.document.model.DocumentData;
-import com.github.piergiuseppe82.smarttimesheet.document.model.DocumentGenerator;
 
 @Component
 public class WSMOD1800Generator implements DocumentGenerator{
